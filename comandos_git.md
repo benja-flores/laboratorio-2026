@@ -14,3 +14,4 @@
 12) git status (Verifica el estado del repositorio)
 13) git add "nombre_del_archivo" (para agregar 1 archivo)
 14) git add . (para agregar todos los archivos)
+15) git commit -m "Mi Primer Commit"  (realizar un commit)
