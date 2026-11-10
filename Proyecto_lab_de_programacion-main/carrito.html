@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Style_carrito.css">
+    <title>Carrito</title>
+</head>
+<body>
+    <header class="menu">
+
+    <h2 class="logo">
+        <a href="index.html">Bar esculapio
+</a>
+    </h2>
+
+    <nav class="navegacion">
+        <a href="index.html">Inicio</a>
+        <a href="bar.html">Bar</a>
+    </nav>
+
+    <div class="usuario">
+        <a href="carrito.html">Carrito</a>
+    </div>
+
+    <button class="header__carrito-btn" id="btnCarrito">
+    🛒 <span id="contadorCarrito">0</span>
+    </button>
+</header>
+
+    <section class="carrito" id="carrito">
+        <h2 class="seccion__titulo">Tu carrito</h2>
+
+        <div class="carrito__contenedor">
+            <div class="carrito__lista" id="listaCarrito">
+                <p class="carrito__vacio" id="carritoVacio">Tu carrito está vacío.</p>
+        </div>
+
+        <div class="carrito__resumen" id="resumenCarrito">
+            <h3 class="carrito__resumen-titulo">Resumen</h3>
+        <div class="carrito__linea">
+            <span>Subtotal</span>
+            <span id="subtotal">$0</span>
+        </div>
+        <div class="carrito__linea">
+            <span>IVA (21%)</span>
+            <span id="iva">$0</span>
+        </div>
+        <div class="carrito__linea carrito__linea--total">
+            <span>Total</span>
+            <span id="total">$0</span>
+        </div>
+        <button class="btn btn--primario btn--bloque" id="btnComprar">
+            Finalizar compra
+        </button>
+        <button class="btn btn--secundario btn--bloque" id="btnVaciar">
+            Vaciar carrito
+        </button>
+        </div>
+        </div>
+    </section>
+
+    <script type="module" src="carrito.js"></script>
+</body>
+</html>
+

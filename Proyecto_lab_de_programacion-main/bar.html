@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar esculapio</title>
+
+    <link rel="stylesheet" href="Style_bar.css">
+    
+</head>
+<body>
+    <header class="menu">
+
+    <h2 class="logo">
+        <a href="index.html">Bar esculapio
+</a>
+    </h2>
+
+    <nav class="navegacion">
+        <a href="index.html">Inicio</a>
+        <a href="bar.html">Bar</a>
+    </nav>
+
+    <div class="usuario">
+        <a href="carrito.html">Carrito</a>
+    </div>
+
+    <button class="header__carrito-btn" id="btnCarrito">
+    🛒 <span id="contadorCarrito">0</span>
+    </button>
+</header>   
+
+    <main>
+        <section class="mercancias" id="mercancias">
+            <h2 class="seccion__mercancias">Bienvenidos al Bar esculapio</h2>
+            <div class="producto__grilla" id="grillaProducto">
+                
+            </div>
+
+        </section>
+
+
+        <nav class="num-pagina">
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" 
+            width="24" height="24" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="currentColor" 
+            stroke-width="2" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M15 6l-6 6l6 6" />
+        </svg></a>
+        <a href="" class="is-active">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" 
+            width="24" 
+            height="24" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="currentColor" 
+            stroke-width="2" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 6l6 6l-6 6" />
+        </svg></a>
+        </nav>
+
+    </main>
+    <script type="module" src="Bar.js"></script>
+</body>
+</html>
